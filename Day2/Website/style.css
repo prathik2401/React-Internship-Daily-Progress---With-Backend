@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navigation{
+    background-color: black;
+    padding: 10px, 10px;
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    
+}
+
+.navigation a{
+    height: 60px;
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.navigation a:hover{
+    background-color: red;
+    color: black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.banner-section img{
+    width: 99vw;
+    height: 100vh;
+    object-fit: cover;
+    position: relative;
+}
+
+.main-img{
+    position: absolute;
+
+    left: 50px;
+    top: 50px;
+}
+
+.text{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    z-index: 100;
+    color: white;
+    justify-content: center;
+    padding: 10px, 0px;
+}
+
+.text .first-text{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.text .second-text{
+    text-align: center;
+}
+
+.text .third-text{
+    text-align: center;
+    line-height: 20px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    top: -500px;
+    height: 50px;
+    width: 100%;
+    /* background-color: green; */
+    justify-content: center;
+    position: relative;
+}
+
+.inputs button{
+    width: 150px;
+    background-color: red;
+    color: #efff;
+    border: 2px solid #efff;
+    font-size: large;
+}
+.inputs .input-text{
+    width: 350px;
+    font-size: x-large;
+}
+
+.sign-in-button button{
+    position: relative;
+    top: -920px;
+    left: 1500px;
+}
+
+.sign-in-button button{
+    width: 80px;
+    /* height: 40px; */
+    background-color: red;
+    color: #efff;
+    border: none;
+    border-radius: 2px;
+    font-size: large;
+}
+
+.second-block {
+    display: flex;
+    position: relative;
+    width: 100%;
+    background-color: black;
+    top: -75px;
+}
+.second-block image{
+    position: relative;
+    /* height: 60vh; */
+    top:-75px;
+    right: -105px;
+} 
+
+.watch{
+    position: relative;
+    background-color: black;
+    top: 175px;
+    padding-left: 50px;
+}
+.watch .heading{
+    justify-content: center;
+    line-height: 50px;
+    color: white;
+}
+.watch .texts{
+    font: large;
+    line-height: 50px;
+    color: white;
+}
+
+.second-block .image{
+    position: relative;
+    right: -250px;
+    width: -50px;
+}
+
+.freq{
+    position: relative;
+    color: white;
+    width: 100%;
+    background-color: black;
+    top: -75px;
+    /* text-align: center; */
+}
+
+.freq .freq-head{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.questions {
+    color: white;
+    background-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+}
+.questions .head2{
+    padding: 2%;
+    color: white;
+    background-color: rgb(36, 36, 36);
+    justify-content: space-between;
+}
+
+.questions .answer1{
+    display: none;
+}
+
+.questions:hover .answer1{
+    display:block;
+}
+
+.body{
+    background-color: black;
+}
