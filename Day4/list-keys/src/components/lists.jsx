@@ -14,7 +14,7 @@ function Lists() {
         id: 1,
         name: 'Mario José Molina-Pasquel Henríquez',
         profession: 'chemist',
-        accomplishment: 'discovery of Arctic ozone hole',
+        accomplishment: 'discovery of Arctic ozone hole in the Arctic Area',
         imageId: 'mynHUSa'
       }, {
         id: 2,
