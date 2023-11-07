@@ -1,0 +1,32 @@
+.header{
+  background-color: black;
+  display: flex;
+}
+
+.header a{
+  padding: 10px;
+  color: white;
+}
+
+.footer{
+  display: flex;
+  background-color: black;
+}
+
+.centerComponent{
+  display: flex;
+  height: 400px;
+  background-color: red;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+.img-row{
+  display: flex;
+  padding: 2%;
+}
+
+.rightComponent{
+  width: 50%;
+  background-color: yellow;
+}
