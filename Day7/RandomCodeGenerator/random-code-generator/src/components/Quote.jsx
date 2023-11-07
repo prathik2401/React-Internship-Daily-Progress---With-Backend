@@ -23,7 +23,7 @@ function Quote() {
         return randomInt
     }
   return (
-    <div>
+    <div className='container'>
         <h1>Random Quote Generator</h1>     
         <p>
             <h2>
