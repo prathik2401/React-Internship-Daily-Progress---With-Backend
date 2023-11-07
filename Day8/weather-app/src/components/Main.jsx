@@ -30,7 +30,7 @@ function Main() {
 
   return (
     <div>
-        <input type="search" placeholder='Search City' onChange={(e)=>setSearch(e.target.value)}/>
+        <input className='search-button' type="search" placeholder='Search City'  onChange={(e)=>setSearch(e.target.value)}/>
         {
             city?.name ? (<Card search={search} city={city} icon={setFunction(icon)} />) : <h1>City Not Found</h1>
         }

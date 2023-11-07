@@ -17,7 +17,7 @@ function Card(props) {
         <div className='sub-block'>
             {/* image */}
         <div>
-            <img src= {props.icon} alt="" width={100} height={100}/>
+            <img src= {props.icon} alt="" width={200} height={200}/>
         </div>
 
         {/* for Temperature */}
