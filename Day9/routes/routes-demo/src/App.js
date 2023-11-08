@@ -1,11 +1,10 @@
 import './App.css';
-import ContextComp from './ContextApi/ContextComp';
-
+import Root from './routes/root';
 
 function App() {
   return (
     <div className="App">
-      <ContextComp/>
+      <Root/>
     </div>
   );
 }
