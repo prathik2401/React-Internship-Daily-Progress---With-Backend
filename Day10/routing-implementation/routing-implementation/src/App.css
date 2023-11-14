@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: #96B6C5;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-main{
+  background-color: #96B6C5;
+  position: sticky;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header-list{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 1%;  
+  background-color: #96B6C5;
 }
 
-.App-link {
-  color: #61dafb;
+.header-list li{
+  list-style-type: none;
+  padding: 10px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.header-list li :link:hover{
+  background-color: #EEE0C9;
+  border-radius: 2px;
+}
+
+.header-list li :link{
+  text-decoration: #F8F0E5;
+}
+
+.details{
+  text-align: justify;
+  width: 70%;
+  height: auto;
+}
+
+
+.home-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.title-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.image-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.image-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.details {
+  line-height: 1.6;
+  text-align: justify;
+  overflow-wrap: break-word;
+}
+
+/* Add specific styles to the paragraphs in the 'details' section */
+.details p {
+  margin-bottom: 20px;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 600px) {
+  .home-container {
+    padding: 10px;
   }
 }

@@ -3,8 +3,8 @@ import {Link } from 'react-router-dom'
 
 function Header() {
   return (
-    <div>
-        <ul>
+    <div className='header-main'>
+        <ul className='header-list'>
             <li>
                 <Link to={'/'}>
                   Home
