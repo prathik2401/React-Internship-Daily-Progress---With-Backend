@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import { deleteUser } from "../store/reducer";
+import { deleteUser } from "../store/Reducer";
 
 function Home() {
   let users = useSelector((state) => state.users);

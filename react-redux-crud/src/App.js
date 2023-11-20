@@ -1,20 +1,19 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import React from 'react'
 import './App.css';
-import Home from './components/Home';
-import Create from './components/Create';
-import Update from './components/Update';
-
+import {BrowserRouter as Router, Routes , Route} from "react-router-dom"; 
+import Home from './compo/Home';
+import Update from './compo/Update';
+import Create from './compo/Create';
 function App() {
-
   return (
-    <BrowserRouter>
+      <Router>
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/create' element={<Create />} />
-          <Route path='/edit/:id' element={<Update />} />
+          <Route path='/' element={<Home/>}/>
+          <Route path='/create' element={<Create/>}/>
+          <Route path='/update/:id' element={<Update/>}/>
         </Routes>
-    </BrowserRouter>
-  );
+      </Router>
+  )
 }
 
-export default App;
+export default App
